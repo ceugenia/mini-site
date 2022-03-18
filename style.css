@@ -1,0 +1,154 @@
+body {
+    background-color: #bea6b9;
+  }
+  .jumbotron {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+      color: inherit;
+      background-color: #566796;
+  }
+  .btn {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+  }
+
+  h1, strong, cite {
+  font-family: 'Lobster Two', cursive;
+  text-decoration: none;
+  }
+
+  h1 a:active, h1 a:hover { text-decoration: none; }
+
+  p, li {
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  .lobster {
+    font-family: 'Lobster Two', cursive;
+  }
+  .navbar {
+      position: relative;
+      min-height: 50px;
+      margin-bottom: 10px;
+      border: 1px solid transparent;
+  }
+  .link-black
+  {
+    color: #041d54;
+  }
+  .link-white
+  {
+    color: white;
+  }
+  .clear {
+    color: #FFFFFF;
+  }
+  p, h3 {
+    color: #FFFFFF;
+  }
+  .h1-size {
+    font-size: 60px;
+  }
+  .p-size-md {
+    font-size: 30px;
+  }
+  .nice-color
+  {
+    color: #041d54;
+  }
+  .frida-image
+  {
+    border-radius: 50%;
+  }
+  .another-nice-color
+  {
+    background-color: #041d54;
+  }
+  a:link {
+      color: #FFFFFF;
+  }
+
+  /* visited link */
+  a:visited {
+      color: #FFFFFF;
+  }
+
+  /* mouse over link */
+  a:hover {
+      color: #041d54;
+  }
+
+  /* selected link */
+  a:active {
+      color: #041d54;
+  }
+
+  .square {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(143, 36, 111);
+  }
+
+  /* La hoja (leaf) animada*/
+  .leaf {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(21, 168, 21);
+    height: 20px;
+    width: 20px;
+    transform: rotate(-180deg);
+    animation-duration: 15s;
+    animation-name: rainbow;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  .leaf::after {
+    background-color: rgb(21, 168, 21);
+    content: "";
+    border-radius: 50%;
+    border-radius: 50%;
+    border-right: 3px solid rgb(13, 66, 16);
+    border-bottom: 3px solid rgb(13, 66, 16);
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 0px;
+    bottom: 25px;
+    animation-duration: 15s;
+    animation-name: rainbow;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  .leaf::before {
+    content: "";
+    background-color: rgb(21, 168, 21);
+    border-radius: 50%;
+    border-right: 3px solid rgb(13, 66, 16);
+    border-bottom: 3px solid rgb(13, 66, 16);
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    bottom: -15px;
+    left: 0px;
+    animation-duration: 15s;
+    animation-name: rainbow;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+  @keyframes rainbow {
+    0% {
+      background-color: greenyellow;
+    }
+    50% {
+      background-color: green;
+    }
+    100% {
+      background-color: rgb(104, 185, 72);
+    }
+  }

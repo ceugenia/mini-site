@@ -1,0 +1,48 @@
+body {
+    background-color: #093145;
+  }
+  
+  a {
+      color: #ffffff;
+  }
+  h1, h3, strong, cite {
+    font-family: 'Lobster Two', cursive;
+    color: #ffffff;
+  }
+  p {
+      color: #ffffff;
+      font-size: 15px;
+  }
+  .jumbotron {
+      padding-top: 30px;
+      padding-bottom: 30px;
+      margin-bottom: 30px;
+      color: inherit;
+      background-color: #093145;
+   }
+  .jumbotron .h1, .jumbotron h1 {
+      color: #ffffff;
+  }
+  .jumbotron h2 {
+      font-size: 30px;
+      color: #ffffff;
+  }
+  .jumbotron p {
+      margin-bottom: 15px;
+      font-size: 15px;
+      font-weight: 200;
+  }
+  .lobster {
+    font-family: 'Lobster Two', cursive;
+  }
+  .navbar {
+      position: relative;
+      min-height: 50px;
+      margin-bottom: 20px;
+      border: 1px solid transparent;
+  }
+  .btn {
+     -webkit-border-radius: 20px;
+     -moz-border-radius: 20px;
+     border-radius: 20px;
+  }

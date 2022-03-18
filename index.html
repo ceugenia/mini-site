@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<!--vecteezy & Canva-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" type="image/png" href="images/SolYLuna.png" />
+    <meta name="apple-mobile-web-app-title" content="Mininu">
+    <link rel="shortcut icon" type="image/x-icon" href="images/SolYLuna.png" />
+    <link rel="mask-icon" type="" href="images/SolYLuna.png" color="#111" />
+    <title>Mininu</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lobster+Two|Roboto+Condensed'>
+    <script src="https://kit.fontawesome.com/314c4fb464.js" crossorigin="anonymous"></script>
+
+      <link rel='stylesheet' href='style.css'>
+
+  </head>
+  <body translate="no">
+  <body>
+  <!--Navbar & About Me-->
+  <div class="jumbotron text-center background clear">
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <nav class="navbar navbar-light bg-light">
+          <a class="navbar-brand" href="#">
+            <div class="d-inline-block align-top">
+              <!--Un logo bien bonito animado en javascript*-->
+            </div>
+          </a>
+        <ul class="nav navbar-nav">
+          <li class="lobster"><a href="#about">About</a></li>
+          <li class="lobster"><a href="#portfolio">Portfolio</a></li>
+          <li class="lobster"><a href="#sol-luna">Sol y Luna</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!--About Me-->
+    <section id="about-me">
+      <div class="container">
+      <div id="about">
+        <div class="row">
+          <div class="col-md-6">
+            <h1 class="clear h1-size">About Me</h1>
+            <div class="square">
+            </div>
+            <script src="node_modules/animejs/lib/anime.min.js"></script> <!--El cubo no se mueve?-->
+            <script>
+                  anime({
+                      targets: '.square',
+                      translateX: 250
+                  });
+            </script>
+          <p>
+            Hello World!<i class="fa fa-smile-o" aria-hidden="true"></i> I am an aspiring Microbiologist in the making as well as a Computational Biologist.
+          </p>
+          </div>
+          <div class="col-md-6">
+            <p>
+               <!--Animar una hoja aca (arreglar la animacion y definir mejor la forma*)-->
+              <div class="leaf"></div>
+            </p>
+              <br>
+              <br>
+            <h1 class="clear">BakeryLeaf</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+  </div>
+  <!--Portafolio-->
+  <div class="container text-center">
+    <div class="row p-size-md">
+      <div id="portfolio">
+      <div class="row">
+        <div class="col-sm-12">
+          <h1 class="text-center h1-size nice-color">Portfolio</h1>
+        </div>
+      </div>
+        <div class="col-sm-4">
+        <p>
+          <a href="#" target="_blank"><button type="button" class="btn btn-info another-nice-color"><i class="fa fa-search" aria-hidden="true"></i> More Projects Coming Soon...</button></a>
+        </p>
+        <p>
+          <!--Animar una hoja aca-->
+          <img src="images/flower-1.png" width="300" height="300">
+        </p>
+        </div>
+        <div class="col-sm-4">
+        <p>
+          <a href="pages/biography-frida.html" target="_blank"><button type="button" class="btn btn-info another-nice-color"><i class="fa fa-user fa-fw"></i> Frida Kahlo's Chronology</button></a>
+        </p>
+        <p>
+          <!--Animar una pastel con velitas aca-->
+          <img src="https://68.media.tumblr.com/c1be8763519eb95a9236f534607e2218/tumblr_oogoixqSMb1rvywngo1_540.png" class="img-thumbnail frida-image" width="500" height="500">
+        </a>
+        </p>
+        </div>
+        <div class="col-sm-4">
+        <p>
+          <a href="#" target="_blank"><button type="button" class="btn btn-info another-nice-color"><i class="fa fa-search" aria-hidden="true"></i> More Projects Coming Soon...</button></a>
+        </p>
+        <p>
+          <!--Animar una hoja aca-->
+          <img src="images/flower-2.png" width="300" height="300">
+        </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Sol y Luna-->
+  <hr>
+    <div class="container text-center" id="sol-luna">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="images/Moon.png" width="300" height="300">
+        </div>
+        <div class="col-md-6">
+          <img src="images/Moon-SUN.png" width="300" height="300">
+        </div>
+      </div>
+    </div>
+  <hr>
+  <!--Copyright-->
+    <div class="container text-center">
+    <div class="row">
+        <div class="col-md-6">
+        <a href="https://luninani.github.io/mininu-site/"><img src="images/SolYLuna.png" height="100">
+          <!--
+            <p class="nice-color">Written and coded by <button type="button" class="btn btn-link link-white nice-color"><i class="fas fa-lemon"></i> Constanza P.</button></p></a>
+          -->
+      </div>
+      <div class="col-md-6">
+          <p>
+          <a href="https://github.com/luninani" target="_blank"><button type="button" class="btn btn-info another-nice-color"><i class="fab fa-github"></i> github </button></a>
+        </p>
+      </div>
+    </div>
+  </div>
+  </body>
+</html>
